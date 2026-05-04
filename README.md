@@ -52,3 +52,15 @@ bash api/vault_get.sh
 ```bash
 bash logs/rotate_logs.sh
 ```
+
+### certs/cert_chain_verify.sh
+Проверка цепочки доверия сертификата.
+```bash
+bash certs/cert_chain_verify.sh google.com
+```
+
+### logs/logrotate_example.conf
+Пример конфига системной ротации логов для /etc/logrotate.d/.
+```bash
+sudo logrotate -d logs/logrotate_example.conf
+```
